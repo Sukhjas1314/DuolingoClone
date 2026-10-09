@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-duo-green: #58CC02;
+  --color-duo-greenShadow: #58A700;
+  --color-duo-blue: #1CB0F6;
+  --color-duo-blueShadow: #1899D6;
+  --color-duo-red: #FF4B4B;
+  --color-duo-redShadow: #EA2B2B;
+  --color-duo-yellow: #FFC800;
+  --color-duo-yellowShadow: #E5B400;
+  --color-duo-orange: #FF9600;
+  --color-duo-purple: #CE82FF;
+  --color-duo-grey: #E5E5E5;
+  --color-duo-textDark: #4B4B4B;
+  --color-duo-textLight: #AFAFAF;
+  --color-duo-bg: #FFFFFF;
+  --color-duo-darkBg: #131F24;
+  --color-duo-darkCard: #202F36;
+  --color-duo-darkBorder: #37464F;
+
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+}
+
+:root {
+  --background: var(--color-duo-bg);
+  --foreground: var(--color-duo-textDark);
+}
+
+.dark, [data-theme='dark'] {
+  --background: var(--color-duo-darkBg);
+  --foreground: var(--color-duo-textLight);
+}
+
+html, body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
