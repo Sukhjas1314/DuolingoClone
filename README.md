@@ -72,20 +72,24 @@ Zig-zag learning path · five interactive lesson types · streaks, XP & hearts
 ---
 
 ## 📸 Screenshots
-
 <div align="center">
 
-| Learning Path | Lesson Player |
-| :-: | :-: |
-| ![Path](docs/screenshots/path.png) | ![Lesson](docs/screenshots/lesson.png) |
-
-| Feedback Bar | Lesson Complete |
-| :-: | :-: |
-| ![Feedback](docs/screenshots/feedback.png) | ![Complete](docs/screenshots/complete.png) |
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/0e261ada-92a9-43d3-86e5-bdc3cf272d54" alt="Learning Path" width="100%" />
+      <br />
+      <sub><b>🗺️ Learning Path</b><br/>Zig-zag skill tree with lock/unlock progression</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/485e663f-d11f-4005-89eb-cff6e268812c" alt="Lesson Player" width="100%" />
+      <br />
+      <sub><b>🧩 Lesson Player</b><br/>Interactive exercises with instant feedback</sub>
+    </td>
+  </tr>
+</table>
 
 </div>
-
-> 💡 *Add your images to `docs/screenshots/` using the file names above.*
 
 ---
 
